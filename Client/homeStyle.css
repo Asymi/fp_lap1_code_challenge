@@ -1,0 +1,56 @@
+/* font-family: 'Noto Sans', sans-serif; */
+#bar {
+    width: 30rem;
+    height: 2rem;
+    border-radius: 1.5rem;
+    border: 0.02rem solid #dbdbdb;
+    padding: 0.35rem;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 4fr 3fr 4fr;
+}
+
+#main {
+    display: grid;
+    grid-area: 2 / 2 / 3 / 3;
+    justify-content: center;
+    align-content: center;
+}
+
+#logo {
+    display: grid;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.myForm {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#search, #lucky{
+    Width: 10rem;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    color: #555555;
+}
+
+
+#search:hover {
+    background-color: #e2dfdf
+}
+#lucky:hover {
+    background-color: #e2dfdf
+}
